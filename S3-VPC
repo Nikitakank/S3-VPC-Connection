@@ -1,0 +1,26 @@
+# 🛰️ S3-VPC Connection Project
+
+This project demonstrates how to securely connect an EC2 instance within a custom VPC to an S3 bucket using IAM roles and policies.
+
+## 🔧 Technologies Used
+- AWS EC2, S3, IAM, VPC
+- Bash / Terraform / CLI
+- Linux
+
+## 🛠️ Steps Performed
+1. Created a custom VPC with subnets, IGW, and route table.
+2. Launched EC2 instance inside the public subnet.
+3. Created an S3 bucket.
+4. Created IAM role and attached to EC2 instance.
+5. Verified S3 access using CLI from EC2.
+
+## 📁 Files Included
+- `vpc-setup.yaml`: VPC setup script
+- `s3-policy.json`: IAM policy for EC2 role
+- `screenshots/`: Proof of concept images
+
+## 📸 Preview
+(Insert image of architecture or terminal output)
+
+## 📬 Contact
+Made with ❤️ by Nikita Kank – Cloud & DevOps Engineer
